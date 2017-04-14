@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:15vh;
+  width: 100vw;
+  background-color: crimson;
+}
+.problem{
+  height: max-content;
+  width: 20vw;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.problem:hover{
+  background-color: crimson;
+}
+.argue{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.left{
+  height:75px;
+  width: 20vw;
+  background-color: olivedrab;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
+.right{
+  height:75px;
+  width: 20vw;
+  background-color: olivedrab;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
+.clickedleft{
+  height:75px;
+  width: 10vw;
+  background-color: white;
+  color:white;
+  font-size: 20px;
+}
+.clickedright{
+  height:75px;
+  width: 10vw;
+  background-color: white;
+  color:white;
+  font-size: 20px;
+}
+.hover{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.alert{
+  height: 50vh;
+  width: 75vw;
+  background-color: olivedrab;
+  color: white;
+  text-align: center;
+}
+.keypress{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.header{
+  color: white;
+}
+.signin{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
